@@ -48,7 +48,7 @@ The system follows a modular architecture:
 
 ## How to Use
 
-1. Open the web application: https://YOUR-STREAMLIT-APP.streamlit.app
+1. Open the web application: https://cloud-data-processing-service1-jycpet8dd3z8zgnfruttjf.streamlit.app/
 
 2. Select a dataset:
 - Use a Databricks sample dataset, or
@@ -107,8 +107,8 @@ The system performs the following distributed machine learning tasks using Spark
 
 ## Demo & Links
 
-- 🌐 Web Application: https://YOUR-STREAMLIT-APP.streamlit.app
-- 📦 GitHub Repository: https://github.com/naro04/cloud-data-processing-service.git
+- 🌐 Web Application: https://cloud-data-processing-service1-jycpet8dd3z8zgnfruttjf.streamlit.app/
+- 📦 GitHub Repository: https://github.com/naro04/cloud-data-processing-service1.git
 - 🎥 Video Demonstration: https://YOUR-VIDEO-LINK
 
 ---
