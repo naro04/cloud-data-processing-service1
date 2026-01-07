@@ -1,5 +1,5 @@
 
-
+import os
 # ============================================
 # DATABRICKS CONNECTION
 # ============================================
@@ -8,7 +8,7 @@
 DATABRICKS_HOST = "https://dbc-957aa73b-d7e0.cloud.databricks.com"
 
 # Access Token
-DATABRICKS_TOKEN = "dapi8c9b8a8638c394e910a3e13240b3ceb9"
+DATABRICKS_TOKEN = os.getenv("DATABRICKS_TOKEN")
 
 # ============================================
 # DATASET CONFIGURATION
