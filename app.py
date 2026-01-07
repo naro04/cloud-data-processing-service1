@@ -39,11 +39,11 @@ with st.sidebar:
     st.markdown("---")
 
     st.subheader("Connection Status")
-    connector = DatabricksConnector(config.DATABRICKS_HOST, config.DATABRICKS_TOKEN)
-    if connector.test_connection():
-        st.success("Connected")
-    else:
-        st.error("Connection Failed")
+    #connector = DatabricksConnector(config.DATABRICKS_HOST, config.DATABRICKS_TOKEN)
+   # if connector.test_connection():
+      #  st.success("Connected")
+   # else:
+       # st.error("Connection Failed")
 
     st.markdown("---")
     st.caption("Islamic University of Gaza - 2025")
