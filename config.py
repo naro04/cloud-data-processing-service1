@@ -1,14 +1,15 @@
 
-import os
 # ============================================
 # DATABRICKS CONNECTION
 # ============================================
 
 # Databricks workspace URL
-DATABRICKS_HOST = "https://dbc-957aa73b-d7e0.cloud.databricks.com"
+import os
 
-# Access Token
+# Configuration file (no secrets stored here)
+DATABRICKS_HOST = os.getenv("DATABRICKS_HOST")
 DATABRICKS_TOKEN = os.getenv("DATABRICKS_TOKEN")
+
 
 # ============================================
 # DATASET CONFIGURATION
